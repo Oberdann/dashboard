@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --cor-principal-texto: #FFFFFF;
+  --azul-principal: #0075FF;
+  --azul-escuro: #1A1F37; 
+  --cinza: #718096;
+  --cinza-texto: #A0AEC0;
+}
+
+body {
+  font-weight: 400;
+  height: 100%;
+  color: var(--cor-principal-texto)
+}

@@ -1,0 +1,47 @@
+.analitycs_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    padding: 1em;
+    border-radius: 10px;
+    background: linear-gradient(327deg, #1a1f37 50%, #060b26 74%);
+}
+
+.title {
+    font-size: .6em;
+    color: var(--cinza-texto)
+}
+
+.text_container{
+    display: flex;
+    margin-top: .2em;
+}
+
+.text {
+    font-size: .9em;
+    display: flex;
+    align-items: end;
+    font-weight: 600;
+}
+
+.percentage {
+    margin-left: .3em;
+    display: flex;
+    align-items: end;
+    font-size: .7em;
+    font-weight: 600;
+}
+
+.icon_container {
+    background-color: var(--azul-principal);
+    border-radius: 10px;
+    display: flex;
+    padding: .5em;
+    align-items: center;
+}

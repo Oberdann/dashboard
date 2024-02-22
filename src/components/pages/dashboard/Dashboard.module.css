@@ -1,0 +1,6 @@
+.div {
+    display: flex;
+    background: url("../../../assets/imgs/content/background.png");
+    background-size: cover;
+    background-position: center;
+}

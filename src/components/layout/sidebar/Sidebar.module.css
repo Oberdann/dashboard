@@ -1,0 +1,30 @@
+.navbar {
+    background: linear-gradient(327deg, #1a1f3700 0%, #060b26 94%);
+    filter: blur();
+    width: 17%;
+    height: 80vh;
+    margin: 1em 0 0 1em;
+    border-radius: 10px;
+    padding: 2.5em 1em;
+}
+
+.div_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, #e0e1e200, #e0e1e2, #e0e1e200);
+    border-image-slice: 1;
+    margin-bottom: 1em;
+}
+
+.title {
+    font-size: 1em;
+    font-weight: 900;
+    background: linear-gradient(327deg, #060b2600 0%, #ffffff 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: 2.5em;
+}

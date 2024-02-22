@@ -1,0 +1,45 @@
+.ul_container li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0 .8em;
+    height: 4em;
+}
+
+
+.div_container{
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azul-escuro);
+    border-radius: 15px;
+}
+
+.ul_container li a {
+    text-decoration: none;
+    color: var(--cor-principal-texto);
+    font-size: 1em;
+    margin-left: .9em;
+}
+
+
+.icons {
+    color: var(--azul-principal);
+    width: 1.5em;
+}
+
+.icons_t {
+    background-color: var(--azul-escuro);
+    border-radius: 10px;
+}
+
+
+.tt {
+    color: white;
+}
+
+.test {
+    background-color: var(--azul-principal);
+}
