@@ -1,0 +1,70 @@
+.container {
+    background: var(--degrade-cards);
+    height: 14em;
+    padding: 1.2em;
+    border-radius: 10px;
+    width: 22%;
+    min-width: 196px;
+
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: .9em;
+    font-weight: bold;
+    margin-bottom: .2em;
+}
+
+.subTitle {
+    color: var(--cinza-texto);
+    font-size: .7em;
+}
+
+.content_container {
+    background: url("../../../../../assets/imgs/content/mediumCard/eclipse.png");
+    background-size: 100% 100%;
+
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.icon_container{
+  background-color: var(--azul-principal);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .1em;
+  margin-bottom: 5%;
+}
+
+.statistics{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: var(--azul-escuro-sec);
+    padding: .7em 1em;
+    border-radius: 10px;
+}
+
+.percentage, .percentage_likes strong {
+    color: var(--cinza-texto);
+    font-size: .7em;
+}
+
+.percentage_likes strong{
+    font-size: .6em;
+}
+
+.percentage_likes p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

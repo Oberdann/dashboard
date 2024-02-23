@@ -5,12 +5,12 @@ import styles from "./Analitycs.module.css"
 function Analitycs() {
 
     return (
-        <div className={styles.analitycs_cards}>
+        <section className={styles.analitycs_cards}>
             {
                 analitycsDto.map((data, index) => {
                     let colorPercentage = data.percentage[0] === "+" ? "#01B574" : "#E31A1A"
 
-                    return <div className={styles.card}>
+                    return <div className={styles.card} key={index}>
                         <div>
                             <h3 className={styles.title}>{data.title}</h3>
 
@@ -27,7 +27,7 @@ function Analitycs() {
                     </div>
                 })
             }
-        </div>
+        </section>
     )
 }
 

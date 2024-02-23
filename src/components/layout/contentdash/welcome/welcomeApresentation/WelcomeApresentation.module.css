@@ -1,0 +1,41 @@
+.container_apresentation {
+    background: url("../../../../../assets/imgs/content/bigCard/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 40%;
+    height: 14em;
+    padding: 1.2em;
+    border-radius: 10px;
+
+    margin-bottom: 1em;
+    min-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.title , .text{
+    color: var(--cinza-texto);
+    font-size: .7em;
+}
+
+.title {
+    margin-bottom: .3em;
+}
+
+.name_user {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: .5em;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    font-size: .8em;
+    color: var(--cor-principal-texto);
+    text-decoration: none;
+}

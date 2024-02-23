@@ -10,8 +10,10 @@
   --cor-principal-texto: #FFFFFF;
   --azul-principal: #0075FF;
   --azul-escuro: #1A1F37; 
+  --azul-escuro-sec: #060B28;
   --cinza: #718096;
   --cinza-texto: #A0AEC0;
+  --degrade-cards: linear-gradient(327deg, #1a1f37 50%, #060b26 74%);
 }
 
 body {

@@ -1,16 +1,18 @@
 .analitycs_cards {
     display: flex;
     justify-content: space-between;
-    margin-top: 1.5em;
+    flex-wrap: wrap;
 }
 
 .card {
+    margin-top: 1.5em;
+    min-width: 210px;
     display: flex;
     justify-content: space-between;
     width: 23%;
     padding: 1em;
     border-radius: 10px;
-    background: linear-gradient(327deg, #1a1f37 50%, #060b26 74%);
+    background: var(--degrade-cards);
 }
 
 .title {
