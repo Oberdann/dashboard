@@ -8,19 +8,19 @@
 
 
 .div_container{
-    height: 5vh;
-    width: 5vh;
+    height: 2em;
+    width: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--azul-escuro);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .ul_container li a {
     text-decoration: none;
     color: var(--cor-principal-texto);
-    font-size: 1em;
+    font-size: .9em;
     margin-left: .9em;
 }
 
@@ -33,6 +33,7 @@
 .icons_t {
     background-color: var(--azul-escuro);
     border-radius: 10px;
+    width: 100%;
 }
 
 

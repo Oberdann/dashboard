@@ -1,0 +1,53 @@
+.graphs{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.sales_review{
+    width: 58%;
+    height: 100%;
+    padding: 1em;
+    background: var(--degrade-cards);
+    border-radius: 10px;
+    min-height: 314px;
+}
+
+.sales_titles{
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.sales_subTitle{
+    font-size: .6em;
+    color: var(--cinza-texto);
+    margin: .5em 0 3em 0;
+}
+
+.sales_subTitle strong {
+    color: #01B574;
+}
+
+
+.sales_graph{
+    background-size: 100% 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.users{
+    background: var(--degrade-cards);
+    padding: 1em;
+    border-radius: 10px;
+    width: 40%;
+    min-height: 314px;
+}
+
+.user_graph{
+    margin-bottom: .5em;
+    width: 100%;
+}
+
+.users_strong{
+    margin-bottom: 3em;
+}

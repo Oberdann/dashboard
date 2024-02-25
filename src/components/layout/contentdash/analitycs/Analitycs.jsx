@@ -1,4 +1,6 @@
-import analitycsDto from "../../../../data/AnalitycsDto"
+import analitycsDto from "../../../../data/analitycsDto"
+
+import numberIsPositive from "../../../../utils/numberIsPositive"
 
 import styles from "./Analitycs.module.css"
 
@@ -8,7 +10,7 @@ function Analitycs() {
         <section className={styles.analitycs_cards}>
             {
                 analitycsDto.map((data, index) => {
-                    let colorPercentage = data.percentage[0] === "+" ? "#01B574" : "#E31A1A"
+                    let colorPercentage = numberIsPositive(data.percentage) ? "#01B574" : "#E31A1A"
 
                     return <div className={styles.card} key={index}>
                         <div>
